@@ -1,0 +1,52 @@
+.bdy {
+  background: url("https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=715&q=80")
+    fixed;
+  background-size: cover;
+}
+
+.feed {
+  width: 340px;
+  height: 450px;
+  background-color: snow;
+  border-radius: 5px;
+  margin-left: 450px;
+  margin-top: 80px;
+  float: left;
+}
+
+.emoji {
+  float: left;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.emoji:nth-child(1):hover {
+  color: springgreen;
+}
+.emoji:nth-child(2):hover {
+  color: #fc830a;
+}
+.emoji:nth-child(3):hover {
+  color: red;
+}
+.complaint {
+  box-shadow: 0 0 10px rgb(185, 185, 185), 0 0 15px rgb(160, 160, 159);
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.sub {
+  width: 180px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(to right, #10a9eb, #db87fa);
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 35px;
+}
+.sub:hover {
+  box-shadow: 0 0 10px rgb(185, 185, 185), 0 0 15px #a363f7;
+}

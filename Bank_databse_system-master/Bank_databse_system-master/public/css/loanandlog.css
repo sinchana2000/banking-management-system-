@@ -1,0 +1,48 @@
+table {
+  box-shadow: 0 0 10px grey;
+}
+td {
+  padding: 10px;
+  text-align: center;
+}
+th {
+  text-align: center;
+}
+
+#lon td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.firsttb th {
+  padding: 15px;
+}
+.bd {
+  background-image: linear-gradient(to right, #9364c4, #cc47fc);
+}
+.acchead {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
+  height: 40px;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.mg {
+  margin-top: 50px;
+}
+
+.tbldiv {
+  overflow: auto;
+  margin-top: 10px;
+  height: 450px;
+  width: 92%;
+  margin-left: 50px;
+}
+
+.heading {
+  letter-spacing: 2px;
+  background-color: #120a1c;
+  color: white;
+}

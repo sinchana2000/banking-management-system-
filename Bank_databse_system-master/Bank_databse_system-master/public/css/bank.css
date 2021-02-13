@@ -1,0 +1,123 @@
+.image {
+  width: 100px;
+  height: 80px;
+}
+.bg-dark {
+  background-color: #000000 !important;
+}
+.navbar {
+  padding-bottom: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(10, 169, 197);
+  font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #020638;
+}
+.bg {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.bodybg {
+  background: url("https://image.freepik.com/free-photo/stock-market-forex-trading-graph-graphic-double-exposure_73426-193.jpg")
+    fixed;
+  background-size: cover;
+  /*background-image: linear-gradient(to right, #159957, #155799);
+  https://www.infosysconsultinginsights.com/wp-content/uploads/2020/01/shutterstock_5668772261.jpg*/
+}
+.bg-light {
+  background-color: none;
+}
+
+.card {
+  float: left;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-bottom: 3rem;
+  animation-name: loanop;
+  animation-duration: 1.8s;
+}
+.card-img-top {
+  width: 23rem;
+  height: 20rem;
+}
+.card-body {
+  opacity: 0.9;
+}
+
+.dis {
+  display: none;
+}
+
+@keyframes loanop {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.cont {
+  float: left;
+  margin-left: 55px;
+}
+.homeloan {
+  float: left;
+  margin-left: 6rem;
+  margin-top: 40px;
+  width: 40rem;
+  height: 32rem;
+  animation-name: hloan;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background: url("../images/banner.png") no-repeat;
+  background-size: cover;
+
+  border-radius: 0.5rem;
+}
+
+.txt {
+  width: 20rem;
+  height: 25rem;
+  margin-left: 2rem;
+  margin-top: 50px;
+  float: left;
+}
+
+@keyframes hloan {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.bottom {
+  width: 100%;
+  float: left;
+  background-color: #c2c8cc;
+  opacity: 0.95;
+}
+
+.bottomele {
+  width: 75%;
+  color: rgb(63, 62, 62);
+  float: left;
+}
+.link {
+  color: #05acc7;
+  float: left;
+}
+.link:hover {
+  color: rgb(241, 45, 19);
+}
+.arrow:hover {
+  color: rgb(241, 45, 19);
+}
+
+.navbar-dark .navbar-nav .secondnav {
+  color: white;
+}
